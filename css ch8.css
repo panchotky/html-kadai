@@ -64,13 +64,19 @@ main{
 }
 
 @media screen and (max-width:768px) {
+  main{
+    width: 100%;
+  }
+
   .box {
   	float: none;
+    margin: 0 auto;
   	margin-bottom: 15px;
-    margin-left: 15px;
+    
   }
 
   .box:last-child{
   	margin-bottom: 0px;
+    margin: 0 auto;
   }
  }
